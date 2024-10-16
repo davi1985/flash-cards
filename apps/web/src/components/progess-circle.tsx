@@ -6,7 +6,7 @@ export const ProgressCircle = ({ progress }: Props) => (
   <svg className="w-full h-full" viewBox="0 0 100 100">
     <circle
       className="text-smoke-400 stroke-current"
-      strokeWidth="10"
+      strokeWidth="12"
       cx="50"
       cy="50"
       r="40"
