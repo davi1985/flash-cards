@@ -20,7 +20,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-5 py-6 px-5 rounded-lg border border-mirage-100 bg-mirage-50 shadow-lg">
           <span className="font-bold text-sm text-mirage-600 leading-heading">
-            Javascript
+            {'Javascript'.toUpperCase()}
           </span>
 
           <div className="space-y-2">
@@ -45,7 +45,7 @@ export default function Home() {
 
             <div className="flex items-center gap-2">
               <div className="w-6 h-6">
-                <ProgressCircle progress={2} />
+                <ProgressCircle progress={50} />
               </div>
               <span className="text-smoke-600 text-sm leading-base">8/16</span>
             </div>

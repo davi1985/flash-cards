@@ -9,7 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors,
+      colors: {
+        ...colors,
+        current: 'currentColor',
+      },
       spacing,
       borderRadius: radii,
       fontWeight: fonts.fontWeights,
