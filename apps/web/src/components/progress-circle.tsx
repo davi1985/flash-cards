@@ -1,3 +1,5 @@
+'use client'
+
 type Props = {
   progress: number
 }
@@ -21,7 +23,7 @@ export const ProgressCircle = (props: Props) => (
       cy="50"
       r="40"
       fill="transparent"
-      strokeDashoffset={`calc(400 - (400 * 45) / 100)`}
+      strokeDashoffset={`calc(400 - (400 * 25) / 100)`}
     ></circle>
   </svg>
 )
